@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  padding: 10%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  background-color: black;
+  height: 500px;
+  max-width: 800px;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  grid-gap: 50px 50px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.dice-face {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.roll-btn {
+  height: 40px;
+  width: 110px;
+  font-weight: bold;
+  font-family: 'Croissant One', cursive;
+  color: white;
+  background-color: rgb(255, 140, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.roll-btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 123, 0);
+}
+
+.title {
+  font-family: 'Croissant One', cursive;
+  margin-top: 3px;
+  padding-bottom: 10px;
+  color: rgb(2, 188, 255);
+}
+
+.instructions {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-bottom: 25px;
+  color: white;
+}
