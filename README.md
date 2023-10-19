@@ -1,3 +1,5 @@
+The objective of Tenzies is to be the first player to get all ten of your dice to show the same number.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
