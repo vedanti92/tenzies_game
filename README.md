@@ -1,4 +1,5 @@
 The objective of Tenzi is to be the first player to get all ten of your dice to show the same number.
+
 On the interface to do so, you need to tap on the die to freeze it and use the ROLL button to roll other dice until you the desired number on all the dice.
 
 
