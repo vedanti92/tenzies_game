@@ -1,7 +1,25 @@
-The objective of Tenzi is to be the first player to get all ten of your dice to show the same number.
+# 🎲 Tenzi Dice Game
 
-On the interface to do so, you need to tap on the die to freeze it and use the ROLL button to roll other dice until you the desired number on all the dice.
+**Tenzi** is a fast-paced and addictive dice game where the goal is to roll all 10 dice until they show the same number. In this React-based web app, you can freeze individual dice by clicking them, then roll the rest until you win. Simple, clean, and fun!
 
+## 🎯 Objective
+
+Get **all 10 dice** to show the **same number** by strategically freezing dice and re-rolling the others.
+
+## 🕹️ How to Play
+
+1. Click **ROLL** to roll all dice.
+2. Click any die to **freeze** it (toggle on/off).
+3. Continue rolling until all dice show the **same number**.
+4. Once all dice are the same **and frozen**, you win!
+
+## ✨ Features
+
+- 🎲 Ten interactive dice, each with its own state
+- ❄️ Click to freeze/unfreeze dice
+- 🔁 Roll button re-rolls only **unfrozen dice**
+- 🏆 Win detection once all dice are equal and frozen
+- ⚛️ Built entirely with **React** using functional components and hooks
 
 # Getting Started with Create React App
 
